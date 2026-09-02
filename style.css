@@ -30,8 +30,8 @@ h1 em,h2 em{font-style:normal;color:var(--gold)}
 }
 
 .photo-placeholder {
-  width: 600px;
-  height: 600px;
+  width: 537px;
+  height: 535px;
   object-fit: cover;
   object-position: center 30%;
   border-radius: 50%;
