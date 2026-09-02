@@ -33,7 +33,7 @@ h1 em,h2 em{font-style:normal;color:var(--gold)}
   width: 500px;
   height: 500px;
   object-fit: cover;
-  object-position: center;
+  object-position: center 35%;
   border-radius: 50%;
   position: relative;
   z-index: 2;
