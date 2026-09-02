@@ -21,34 +21,31 @@ h1 em,h2 em{font-style:normal;color:var(--gold)}
 .hero-actions{display:flex;gap:12px;margin-top:35px}.button{padding:15px 25px;font-size:11px;letter-spacing:.15em;text-transform:uppercase}
 .button-gold{background:var(--gold);color:#111}.button-outline{border:1px solid var(--line);color:var(--text)}
 .button-outline:hover{border-color:var(--gold)}
-.hero-visual{position:relative;min-height:620px;z-index:1}
-.photo-placeholder {
-  position: absolute;
+.hero-visual {
+  position: relative;
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.photo-placeholder {
   width: 470px;
   height: 470px;
-
-  right: 5%;
-  top: 15%;
-
   object-fit: cover;
   object-position: center;
-
-  display: block;
-
   border-radius: 50%;
-
-  border: 1px solid rgba(201, 164, 91, 0.5);
-
-  box-shadow:
-    0 0 50px rgba(201, 164, 91, 0.12),
-    0 0 100px rgba(0, 0, 0, 0.7);
-
+  position: relative;
   z-index: 2;
 }
 
 .gold-ring {
-    display: none;
+  position: absolute;
+  width: 510px;
+  height: 510px;
+  border: 1px solid rgba(201, 164, 91, 0.55);
+  border-radius: 50%;
+  z-index: 1;
 }
 .hero-note{position:absolute;right:4vw;bottom:5vh;color:var(--gold);font-size:10px;letter-spacing:.25em;line-height:1.8;z-index:3}
 .section{padding:120px 7vw;border-top:1px solid rgba(255,255,255,.07)}
