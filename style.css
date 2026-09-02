@@ -41,8 +41,8 @@ h1 em,h2 em{font-style:normal;color:var(--gold)}
 
 .gold-ring {
   position: absolute;
-  width: 510px;
-  height: 510px;
+  width: 540px;
+  height: 540px;
   border: 1px solid rgba(201, 164, 91, 0.55);
   border-radius: 50%;
   z-index: 1;
