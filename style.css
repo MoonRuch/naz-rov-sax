@@ -58,4 +58,10 @@ h1 em,h2 em{font-style:normal;color:var(--gold)}
 .story-grid ul{padding:0;list-style:none;color:#c8c2b8}.story-grid li{padding:14px 0;border-bottom:1px solid rgba(255,255,255,.08)}.story-grid li:before{content:"—";color:var(--gold);margin-right:14px}
 .contact{padding-top:80px;padding-bottom:80px}.contact-panel{border:1px solid var(--line);padding:70px 7vw;text-align:center;background:radial-gradient(circle at center,rgba(201,164,91,.08),transparent 55%)}.contact-panel .section-label{margin-bottom:30px}.contact-panel h2{font-size:clamp(55px,7vw,100px);line-height:.85}.contact-phone{display:inline-block;font-size:clamp(24px,3vw,42px);margin:45px 0 30px;color:var(--gold)}.socials{display:flex;justify-content:center;gap:25px}.socials a{font-size:10px;letter-spacing:.2em;color:#aaa}.socials a:hover{color:var(--gold)}
 footer{padding:30px 7vw;display:flex;justify-content:space-between;color:#6f6b65;font-size:9px;letter-spacing:.16em;border-top:1px solid rgba(255,255,255,.07)}
-@media(max-width:800px){.topbar{height:65px}.topbar nav{display:none}.top-phone{font-size:10px}.hero{grid-template-columns:1fr;padding-top:110px}.hero-visual{min-height:500px;order:-1}.photo-placeholder{inset:5% 8% 0}.gold-ring{width:300px;height:300px;right:-30px}.hero-copy{padding-top:30px}h1{font-size:72px}.intro-grid,.story-grid{grid-template-columns:1fr;gap:40px}.section{padding:80px 6vw}.section-heading{display:block}.section-heading p{margin-top:25px}.media-grid{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr}.service-card{min-height:190px;padding:30px}.service-card h3{font-size:38px}footer{display:block;line-height:2}}
+@media(max-width:800px){.topbar{height:65px}.topbar nav{display:none}.top-phone{font-size:10px}.hero{grid-template-columns:1fr;padding-top:110px}.hero-visual{min-height:500px;order:-1}.photo-placeholder {
+  width: 340px;
+  height: 340px;
+}.gold-ring {
+  width: 370px;
+  height: 370px;
+}.hero-copy{padding-top:30px}h1{font-size:72px}.intro-grid,.story-grid{grid-template-columns:1fr;gap:40px}.section{padding:80px 6vw}.section-heading{display:block}.section-heading p{margin-top:25px}.media-grid{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr}.service-card{min-height:190px;padding:30px}.service-card h3{font-size:38px}footer{display:block;line-height:2}}
